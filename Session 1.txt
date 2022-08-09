@@ -1,0 +1,38 @@
+1. What is the difference between HTTP1.1 vs HTTP2
+    
+   Http is stands for Hypertext markup language and it is used to client server communication.
+   By using HTTP user sends the request to the server & the server sends the response to the user.
+   http1.1 v- which was standardized protocol more than 15 years on this field
+   That was created in 1997 and the new one is http2 v- which was created in 2015
+
+ Http1.1 v
+   when you make a request to the server for the Someone.html page 
+   And server responds to you as a resource Someone.html page before sending the request and the response there is a TCP connection established between client & server
+
+ Http2 v
+    HTTP/2 was developed over the SPDY protocol. 
+    HTTP/2 works on the binary framing layer instead of textual that converts all the messages in binary format
+
+
+2. Objects and its internal representation in Javascript
+    
+    In javascript, Object has collection of values and different datatype
+
+For example :
+      
+     All cars have the same properties, but the property values differ from car to car. 
+
+ var carFeatures;
+
+     carFeatures ={
+            Make: Mercedes,  Key: Value,
+            Model: C-Class,  Key: Value,
+            Color: White,    Key: Value,
+            Fuel: Diesel,    Key: Value,
+            Weight: 850kg,   Key: Value,
+            Mileage: 8Kmpl,  Key: Value,
+            Rating: 4.5      Key: Value
+}
+
+console.log(carFeatures[Rating])
+                 
